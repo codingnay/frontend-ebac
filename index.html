@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Bootstrap - Módulo 12 EBAC</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <style>
+        .container {
+            margin-top: 5%;
+        }
+        .btn {
+            margin-top: 2rem;
+        }
+        form>div {
+            margin-top: 1rem;
+        }
+    </style>
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-6">
+                <p class="display-6 g-0">Formulário de cadastro</p>
+                <form class="form">
+                    <div class="col-12">
+                        <label for="nome" class="form-label">Nome</label>
+                        <input type="text" id="nome" class="form-control" placeholder="digite seu nome completo"/>
+                    </div>
+                    <div class="col-12">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="text" id="email" class="form-control" placeholder="digite seu e-mail"/>
+                    </div>
+                    <div class="col-12">
+                        <label for="telefone" class="form-label">Telefone</label>
+                        <input type="text" id="telefone" class="form-control" placeholder="digite seu telefone"/>
+                    </div>
+                    <button class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
